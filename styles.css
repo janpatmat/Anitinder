@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(#FD297B, orange);
+}
+
+.header{
+    background-image: linear-gradient(red, orange);
+    width: 250px;
+    position: absolute;
+}
+
+.sidenav{
+   
+    background-image: linear-gradient(#F9DBE1,white);
+    border-style: hidden;
+    width: 250px;
+    height: 700px;
+    float: left;
+
+}
+.main{
+    background-color: #FACDD6;
+    margin-left: 200px;
+   border-style:outset;
+    width: 70%;
+    height: 700px;
+}
+
+.selectt{
+   background-image: linear-gradient(#F9DBE1,white);
+    position: absolute;
+    border-style: outset;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+.info{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+.pic{
+    border-radius: 25px;
+    position: absolute;
+    height: 200px;
+    margin: 100px;
+}
+.vals{
+    width: 50px;
+    height: 50px;
+    border: 0px;
+}
+.mtable{
+    border: 0px;
+}
+
+.mtable tr{
+
+    border:0;
+
+}
+.yes {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    
+  }
+
+  .no {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #FF8886;
+    border: none;
+    border-radius: 15px;
+    margin-left: 20px;
+  }
